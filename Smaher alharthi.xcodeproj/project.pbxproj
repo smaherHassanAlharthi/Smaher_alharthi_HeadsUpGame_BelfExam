@@ -13,9 +13,7 @@
 		52AEB16D27620FA200BC464A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB16B27620FA200BC464A /* Main.storyboard */; };
 		52AEB16F27620FA700BC464A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB16E27620FA700BC464A /* Assets.xcassets */; };
 		52AEB17227620FA700BC464A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AEB17027620FA700BC464A /* LaunchScreen.storyboard */; };
-		52AEB17D27620FA800BC464A /* Smaher_alharthiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB17C27620FA800BC464A /* Smaher_alharthiTests.swift */; };
-		52AEB18727620FA800BC464A /* Smaher_alharthiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB18627620FA800BC464A /* Smaher_alharthiUITests.swift */; };
-		52AEB18927620FA800BC464A /* Smaher_alharthiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB18827620FA800BC464A /* Smaher_alharthiUITestsLaunchTests.swift */; };
+		52AEB1962762174F00BC464A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AEB1952762174F00BC464A /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +43,8 @@
 		52AEB17127620FA700BC464A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52AEB17327620FA700BC464A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52AEB17827620FA800BC464A /* Smaher alharthiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smaher alharthiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AEB17C27620FA800BC464A /* Smaher_alharthiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smaher_alharthiTests.swift; sourceTree = "<group>"; };
 		52AEB18227620FA800BC464A /* Smaher alharthiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smaher alharthiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AEB18627620FA800BC464A /* Smaher_alharthiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smaher_alharthiUITests.swift; sourceTree = "<group>"; };
-		52AEB18827620FA800BC464A /* Smaher_alharthiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smaher_alharthiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52AEB1952762174F00BC464A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				52AEB16427620FA200BC464A /* Smaher alharthi */,
-				52AEB17B27620FA800BC464A /* Smaher alharthiTests */,
-				52AEB18527620FA800BC464A /* Smaher alharthiUITests */,
 				52AEB16327620FA200BC464A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,25 +100,9 @@
 				52AEB16E27620FA700BC464A /* Assets.xcassets */,
 				52AEB17027620FA700BC464A /* LaunchScreen.storyboard */,
 				52AEB17327620FA700BC464A /* Info.plist */,
+				52AEB1952762174F00BC464A /* Game.swift */,
 			);
 			path = "Smaher alharthi";
-			sourceTree = "<group>";
-		};
-		52AEB17B27620FA800BC464A /* Smaher alharthiTests */ = {
-			isa = PBXGroup;
-			children = (
-				52AEB17C27620FA800BC464A /* Smaher_alharthiTests.swift */,
-			);
-			path = "Smaher alharthiTests";
-			sourceTree = "<group>";
-		};
-		52AEB18527620FA800BC464A /* Smaher alharthiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52AEB18627620FA800BC464A /* Smaher_alharthiUITests.swift */,
-				52AEB18827620FA800BC464A /* Smaher_alharthiUITestsLaunchTests.swift */,
-			);
-			path = "Smaher alharthiUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +239,7 @@
 				52AEB16A27620FA200BC464A /* ViewController.swift in Sources */,
 				52AEB16627620FA200BC464A /* AppDelegate.swift in Sources */,
 				52AEB16827620FA200BC464A /* SceneDelegate.swift in Sources */,
+				52AEB1962762174F00BC464A /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AEB17D27620FA800BC464A /* Smaher_alharthiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AEB18727620FA800BC464A /* Smaher_alharthiUITests.swift in Sources */,
-				52AEB18927620FA800BC464A /* Smaher_alharthiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
